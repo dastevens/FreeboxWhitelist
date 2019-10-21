@@ -1,2 +1,8 @@
+configuration: Release
+
 before_build:
   - nuget restore
+  
+artifacts:
+  - path: FreeboxWhitelist\bin\Release
+    name: FreeboxWhitelist
